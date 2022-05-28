@@ -1,0 +1,20 @@
+/*for tablet */
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .mean-container .mean-nav {width: 77%;}
+    .inner_nav_area nav ul li::after {display:none;}
+}
+
+/* for mobile */ 
+@media only screen and (min-width:200px) and (max-width:580px) {
+    .inner_top_header, .inner_middle_header, .inner_hero, .inner_work, .inner_message, .inner_project, .inner_testimonial, .inner_middle_footer, .inner_copyright {-webkit-flex-direction: column;flex-direction: column;}
+    .mini_menu, .logo_area, .social_area, .search_area {margin: 0 auto;}
+    .mini_menu ul {float: none;padding-left:0;}
+    .logo_area {padding-bottom: 0px;}
+    .search_area {padding:28px 0;}
+    .slide_caption {width: 74%;}
+    .child_hero img {padding-right: 10px;}
+    .child_testimonial h2 {text-align: center;}
+    .blog_text {-webkit-flex:9;flex:9;}
+    .child_footer ul {padding-left: 0;}
+    .right_copyright {margin-top: 0;}
+}
